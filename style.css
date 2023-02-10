@@ -626,10 +626,18 @@ HTML body{
       height: 100%;
  }
  #developer{
-  text-align: right;
   font-size: small;
+  margin-top: auto;
+  margin-bottom: auto;
  }
  #developer1{
   text-decoration: none;
   color: black;
+ }
+ #developer1:hover{
+  color: white;
+ }
+ #developer0{
+  width: 16%;
+  margin-left: auto;
  }
