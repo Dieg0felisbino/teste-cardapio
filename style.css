@@ -347,6 +347,8 @@ HTML body{
       width: 90%;
       height: 50%;
       margin-left: auto;
+      margin-right: auto;
+      background-color: red;
    }
    #logocacau{
       max-width: 250px;
@@ -359,12 +361,10 @@ HTML body{
       height: auto;
       margin-left: auto;
       margin-right: auto;
-      margin-top: 30%;
-      margin-bottom: 50px;
+      margin-top: 50px;
+      margin-bottom: 30px;
    }
-   .logoCacau{
-      max-width: 150px;
-   }
+   
  }
  @media screen and (width < 900px) and (width > 500px){
    .overlay{
@@ -386,7 +386,7 @@ HTML body{
    color: black;
  }
  #logoCacau{
-   max-width: 200px;
+   max-width: 250px;
    margin-left: auto;
    margin-right: auto;
    position: absolute;
@@ -626,10 +626,38 @@ HTML body{
       height: 100%;
  }
  #developer{
-  text-align: right;
   font-size: small;
+  margin-top: auto;
+  margin-bottom: auto;
  }
  #developer1{
   text-decoration: none;
   color: black;
+ }
+ #developer1:hover{
+  color: white;
+ }
+ #developer0{
+  width: 16%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: red;
+ }
+ @media screen and (width < 1000px){
+  #developer0{
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    text-align: center;
+  }
+  #logo-cacau{
+    max-width: 250px;
+  }
+  .localizaLogoCacau{
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
  }
