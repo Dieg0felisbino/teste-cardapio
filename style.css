@@ -626,10 +626,35 @@ HTML body{
       height: 100%;
  }
  #developer{
-  text-align: right;
   font-size: small;
+  margin-top: auto;
+  margin-bottom: auto;
  }
  #developer1{
   text-decoration: none;
   color: black;
+ }
+ #developer1:hover{
+  color: white;
+ }
+ #developer0{
+  width: 16%;
+  margin-left: auto;
+  margin-right: auto;
+ }
+ @media screen and (width < 1000px){
+  #developer0{
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    text-align: center;
+  }
+  #logo-cacau{
+    max-width: 250px;
+  }
+  .localizaLogoCacau{
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
  }
