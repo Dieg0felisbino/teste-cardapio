@@ -6,7 +6,7 @@ let logoCacau = window.document.querySelector("#logo-cacau")
 
 
 //verificador de largura para esconder ou mostrar botões de menu e logo Cacau Show
-if (largura > 900){
+if (largura > 1000){
   navButton.classList.add("hide")
   closeBtn.classList.add("hide")
   logoCacau.classList.add("hide")
@@ -44,7 +44,7 @@ function scollToIdOnClick(event){
 
     //verificador de largura para fechar menu
     console.log(largura)
-    if(largura < 900){
+    if(largura < 1000){
       scrollToPosition(to)
       document.getElementById("myNav").style.width = "0%";
     } else{
