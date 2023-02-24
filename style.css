@@ -368,11 +368,9 @@ HTML body{
       margin-left: auto;
       margin-right: auto;
       margin-top: 10%;
-      background-color: red;
    }
    #mobileNav{
     padding-top: 10%;
-    background-color: green ;
     margin-left: auto;
     margin-right: auto;
     height: 50%;
@@ -624,9 +622,12 @@ HTML body{
       height: 100%;
  }
  #developer{
+  text-align: center;
   font-size: small;
   margin-top: auto;
   margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
  }
  #developer1{
   text-decoration: none;
@@ -636,7 +637,7 @@ HTML body{
   color: white;
  }
  #developer0{
-  width: 16%;
+  width: 50%;
   margin-left: auto;
   margin-right: auto;
  }
@@ -644,7 +645,7 @@ HTML body{
   #developer0{
     margin-left: auto;
     margin-right: auto;
-    width: 75%;
+    width: 100%;
     text-align: center;
   }
   #logo-cacau{
